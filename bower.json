@@ -1,11 +1,14 @@
 {
-  "name": "angular-toggle",
+  "name": "xl-angular-toggle",
   "version": "1.0.0",
   "authors": [
     "xialeistudio <xialeistudio@gmail.com>"
   ],
   "description": "a ios style toggle for angularjs app",
-  "main": "angular-toggle.js",
+  "main": [
+    "angular-toggle.js",
+    "angular-toggle.css"
+  ],
   "keywords": [
     "angularjs",
     "ios",
