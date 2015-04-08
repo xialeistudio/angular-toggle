@@ -1,0 +1,35 @@
+.toggle-box {
+}
+
+.toggle-box .toggle-container {
+    position: relative;
+    width: 72px;
+    height: 40px;
+    background: #a8aeb3;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    padding: 2px;
+}
+
+.toggle-box .toggle-container .toggle-item {
+    width: 39px;
+    height: 39px;
+    background: white;
+    -webkit-border-radius: 39px;
+    -moz-border-radius: 39px;
+    border-radius: 39px;
+    cursor: pointer;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+}
+
+.toggle-box.active .toggle-container {
+    background: #79e575;
+}
+
+.toggle-box.active .toggle-container .toggle-item {
+    margin-left: 32px;
+}

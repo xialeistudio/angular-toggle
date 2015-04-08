@@ -1,0 +1,26 @@
+{
+  "name": "angular-toggle",
+  "version": "1.0.0",
+  "authors": [
+    "xialeistudio <xialeistudio@gmail.com>"
+  ],
+  "description": "a ios style toggle for angularjs app",
+  "main": "angular-toggle.js",
+  "keywords": [
+    "angularjs",
+    "ios",
+    "toggle"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularjs": "~1.3.15"
+  }
+}
